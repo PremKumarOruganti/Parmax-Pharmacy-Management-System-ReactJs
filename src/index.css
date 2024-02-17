@@ -1,0 +1,46 @@
+
+.dropdown-toggle::after {
+    display: none !important;
+  }
+.dropdown-menu.show {
+    
+    margin-left: -103px !important;
+}
+.dropdown-menu {
+    font-size: 14px !important;
+}
+
+.dark-Mode{
+    background-color: black;
+    color:#fff !important
+}
+.light-Mode{
+    background-color: white;
+    
+}
+
+.active {
+    color: green !important;
+  }
+
+.NavShadow{
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+.active-link {
+    font-weight: bold;
+    color: yellow; /* Customize the active link color */
+}
+@media print {
+    th,td {
+      font-weight: bold;
+      font-size: x-large;
+      color: black;
+      /* Add other print-specific styles here */
+    }
+}
+
+  
+  
+  
+  

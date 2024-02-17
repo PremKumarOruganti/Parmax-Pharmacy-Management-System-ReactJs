@@ -1,0 +1,35 @@
+*{
+    text-align: center;
+}
+
+.container{
+    margin-top: 150px;
+}
+
+.input_space{
+    margin-bottom: 10px;
+    
+}
+input{
+    height:25px;
+    width:20%;
+    font-size: 15px;
+}
+
+button{
+    height:30px;
+    width:15%;
+    background-color: gray;
+    border:none;
+}
+.logOutBtn{
+    margin-right: 5px;
+    color:white;
+    font-weight: 400;
+}
+.deleteBtn{
+    margin-right: 5px;
+    color:white;
+    font-weight: 400;
+    background-color: rgb(227, 67, 67);
+}

@@ -1,0 +1,38 @@
+{
+  "homepage": "http://PremKumarOruganti.github.io/Parmax-Pharmacy-Management-System-ReactJs",
+  "name": "test1",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "bootstrap": "4.0",
+    "chart.js": "^4.4.0",
+    "highcharts": "^11.2.0",
+    "highcharts-react-official": "^3.2.1",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.9.1",
+    "react-bootstrap-icons": "^1.10.3",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.11.0"
+  },
+  "devDependencies": {
+    "@types/highcharts": "^7.0.0",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "gh-pages": "^6.1.1",
+    "react-router-dom": "^6.16.0",
+    "typescript": "^4.9.3",
+    "vite": "^4.5.2"
+  }
+}
